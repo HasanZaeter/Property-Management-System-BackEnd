@@ -32,12 +32,15 @@
 ## 📌 About the Project  
 
 The **Property Management System (PMS)** is a complete solution for **real estate and property management** that includes:  
-- **3 Web Dashboards**: Admin, Supervisors, and Brokers/Office Managers  
+- **3 Web Dashboards**:  
+  - **Admin & Supervisors Dashboard** for managing system operations, approvals, financials, complaints, and monitoring statistics  
+  - **Brokers / Office Managers Dashboard** for managing offices, properties, bookings, payments, and advertisements  
+  - **Service Providers Dashboard** for managing and offering property-related services (maintenance, furnishing, cleaning, etc.)  
 - **Mobile Application** for end-users to explore, book, and manage properties and tourist places  
 - **Role-based permissions** with secure authentication  
 - **Payment and invoicing system** supporting online and manual payments  
 - **Real-time notifications, support requests, and reporting system**  
-- **Service providers management** for additional services related to properties  
+- **Service providers management** for additional services related to properties 
 
 ### 🏠 Entry Point (Landing Single Page)  
 When accessing the platform for the first time, users are welcomed with a **landing single page** that showcases:  
