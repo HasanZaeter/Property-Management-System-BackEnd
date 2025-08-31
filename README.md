@@ -135,6 +135,7 @@ STRIPE_WEBHOOK_SECRET=yourSecretKey
 
 #Firebase Configuration
 FIREBASE_CONFIG_PATH=src/infrastructure/config/firebase/your-credential-file-name.json
-
-http://localhost:3000/api/docs
 ```
+## Api Swagger Documenetation 
+http://localhost:3000/api/docs
+
