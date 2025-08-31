@@ -100,3 +100,41 @@ npm run typeorm migration:run
 
 # Start the application in watch mode
 npm run start:dev
+```
+
+**## 🔑 Environment Variables  
+
+Create a `.env` file in the root directory and add the following:  
+
+```env
+# Database
+DB_HOST=localhost
+DB_PORT=5432
+DB_USERNAME=postgres
+DB_PASSWORD=root
+DB_NAME=yourDatabaseName
+DB_SYNCHRONIZE=true
+
+#Email
+SMTP_HOST=smtp.gmail.com
+SMTP_PORT=587
+SMTP_SECURE=false
+SMTP_USER=yourEmail
+SMTP_PASS=YourPassword
+
+# JWT
+JWT_TOKEN_SECRET=yourGeneratedToken
+JWT_TOKEN_EXPIRES_IN=1h
+
+JWT_REFRESH_TOKEN_SECRET=yourGeneratedToken
+JWT_REFRESH_TOKEN_EXPIRES_IN=7d
+
+#Stripe
+STRIPE_SECRET_KEY=yourSecretKey
+STRIPE_WEBHOOK_SECRET=yourSecretKey
+
+#Firebase Configuration
+FIREBASE_CONFIG_PATH=src/infrastructure/config/firebase/your-credential-file-name.json
+
+http://localhost:3000/api/docs
+```
